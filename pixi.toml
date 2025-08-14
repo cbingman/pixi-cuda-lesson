@@ -1,0 +1,11 @@
+[workspace]
+authors = ["cbingman <cabingman@gmail.com>"]
+channels = ["conda-forge"]
+name = "pixi-cuda-lesson"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+crane = ">=0.20.6,<0.21"

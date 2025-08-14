@@ -1,0 +1,18 @@
+version: 6
+environments:
+  default:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    packages:
+      osx-arm64:
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/crane-0.20.6-h294fe8d_0.conda
+packages:
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/crane-0.20.6-h294fe8d_0.conda
+  sha256: d79cec779c193863b7793b457d8fa7ef3c361bceff27ca3e78f612b1d35605b4
+  md5: ec5450f27a78304d1dd61bfa978535af
+  depends:
+  - __osx >=11.0
+  license: Apache-2.0
+  license_family: APACHE
+  size: 4019044
+  timestamp: 1750077294524
